@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Tutorial 03</string>
+    <string name="btnLoginText">Login</string>
+</resources>
