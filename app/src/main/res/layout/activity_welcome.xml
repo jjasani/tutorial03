@@ -4,27 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFAFA"
     tools:context=".Welcome">
 
-    <TextView
-        android:id="@+id/txtWelcome"
-        android:layout_width="0dp"
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:text="Welcome to RKU"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="34sp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="515dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="66dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="136dp"
-        android:layout_height="76dp"
-        android:text="Hello"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Welcome"
         android:textSize="50sp"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="233dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
